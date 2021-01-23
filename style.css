@@ -1,0 +1,239 @@
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.navbar {
+    min-height: 70px;
+}
+
+.navbar .top-bar {
+    background-color: #FFFFFF;
+    border-color: #FFFFFF;
+}
+
+.navbar .container {
+    max-width: 85%;
+}
+
+ul.nav.navbar-nav.navbar-right {
+    padding-top: 1em;
+    margin-left: auto;
+}
+
+
+.top-bar .navbar-nav>li>a {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: normal;
+    color: #42415B;
+    margin-right: 2em
+}
+
+button.btn.btn-default {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: normal;
+    padding: 1.5em;
+    padding-left: 2em;
+    color: #fff;
+    background-color: #F1A153;
+    border-color: #F1A153;
+    padding-right: 2em;
+    margin-top: -.5em;
+    margin-left: 1em;
+}
+
+nav.navbar.top-bar.px-0 {
+    min-height: 50px;
+    margin-bottom: 0;
+}
+
+.px-0 div#bs-example-navbar-collapse-1 {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+nav.navbar.navbar-expand-lg.second-bar {
+    text-align: center;
+    float: none;
+    background-color: #9CA2C6;
+}
+
+ul.nav.navbar-nav.navbar-center {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+ul.nav.navbar-nav.navbar-center li {
+    float: none;
+    display: inline-block;
+    margin-right: 5em;
+}
+
+
+.second-bar .navbar-center>li>a {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: #fff;
+    text-transform: capitalize;
+    line-height: 20px;
+}
+
+
+.carousel-item {
+     display: block !important;
+}
+
+.carousel-item .d-block {
+    background-image: url(assets/hero.jpg);
+    width: 100%;
+    height: 40em;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.banner-text {
+    margin-top: 8em;
+}
+
+.banner-text h1 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    color: #fff;
+    font-size: 66px;
+    line-height: 80px;
+}
+
+.banner-text p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color: #fff;
+    font-size: 18px;
+    line-height: 30px;
+    padding-left: .2em;
+}
+
+.banner-text button.btn.btn-default {
+    margin-top: 2em;
+    margin-left: 0;
+    padding-left: 3.5em;
+    padding-right: 3.5em;
+    font-size: 17px;
+}
+
+.products {
+    background-color: #F2F3FC;
+    padding-top: 3em;
+    padding-bottom: 5em;
+}
+
+.products h1 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 60px;
+    color: #42415B;
+    text-align: center;
+    text-transform: capitalize;
+    margin-bottom: 1.5em;
+}
+
+.product {
+    width: 170px !important;
+    height: 183px;
+    text-align: center;
+    background-color: #fff;
+    border-radius: 5px;
+    margin-left: 1.5em;
+    margin-right: 1.5em;
+    max-width: 13% !important;
+}
+
+.product img {
+    margin-top: 3em;
+}
+
+.product h4 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #42415B;
+    text-align: center;
+    text-transform: capitalize;
+    margin-top: 1.5em;
+}
+
+.article {
+    padding-top: 2em;
+    padding-bottom: 2em;
+} 
+
+.article .body h3 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 48px;
+    color: #42415B;
+    text-align: left;
+    margin-bottom: 1em;
+}
+
+.article .body p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 35px;
+    color: #170307;
+    text-align: left;
+    width: 85%;
+}
+
+.article .small-body h4 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 35px;
+    color: #42415B;
+    text-align: left;
+    margin-bottom: 1em;
+    margin-top: 2em;
+}
+
+.article .small-body p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    color: #42415B;
+    text-align: left;
+    width: 85%;
+}
+
+.article .small-body h5 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 31px;
+    color: #42415B;
+    text-align: left;
+    margin-top: 1.5em;
+}
+
+.article .small-body h5 img {
+    margin-right: .5em;
+}
+
+
+
+
+

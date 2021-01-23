@@ -1,0 +1,273 @@
+
+@media (min-width: 320px) and (max-width: 430px) { 
+
+    .top-bar .navbar-nav>li>a {
+        font-size: 19px;
+        line-height: 60px;
+    }
+
+    .navbar .container {
+        display: flex;
+        flex-direction: row-reverse;
+    } 
+
+    .navbar {
+        min-height: 40px;
+        margin-bottom: 0;
+     }    
+     
+     .carousel-item .d-block {
+        height: 30em !important;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .banner-text {
+        margin-top: 1em;
+    }
+
+    .banner-text h1 {
+        font-size: 38px !important;
+        line-height: 48px;
+        text-align: center;
+        margin-top: 0;
+    }
+
+    .banner-text p {
+        line-height: 24px;
+        text-align: center;
+        margin-top: 2em;
+        font-size: 16px;
+    }
+
+    .banner-text button.btn.btn-default {
+        margin-top: 2em;
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: 3.5em;
+        padding-right: 3.5em;
+        font-size: 18px;
+        line-height: 24px;
+        display: block;
+    }
+
+    .products h1 {
+        font-size: 30px;
+        margin-top: 1em;
+    }
+
+    .product {
+        width: 100% !important;
+        height: 75px;
+        max-width: 90% !important;
+        margin-bottom: 3em;
+        text-align: left;
+    }
+
+    .product img {
+        margin-top: .5em;
+        display: inline-block;
+        width: 20%;
+    }
+
+    .product h4 {
+        font-size: 16px;
+        line-height: 24px;
+        text-align: left;
+        display: inline-block;
+        margin-top: 1em;
+        width: 60%;
+        margin-left: 1em;
+    }
+
+    body > div.products > div > div > div:nth-child(5) {
+        margin-left: 1em;
+    }
+
+    .article .body h3 {
+        font-size: 30px;
+        line-height: 48px;
+    }
+
+    .article .body p {
+        width: 100%;
+        font-size: 20px;
+        line-height: 35px;
+    }
+
+         
+    .article .small-body h4 {
+        font-size: 22px;
+        line-height: 37px;
+    }
+     
+
+    .article .small-body p {
+        width: 100%;
+        font-size: 18px;
+        line-height: 30px;
+    }
+
+
+    .article .small-body h5 {
+        font-size: 3em;
+        line-height: 1.5em;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .article .small-body h5 img {
+        margin-right: .5em;
+        width: 1em;
+        margin-top: -1.5em;
+    }
+     
+    .article .small-body h5 {
+        font-size: 18px;
+        line-height: 30px;
+    }
+        
+    .show-sm {
+        display: block;
+    }
+
+}
+
+@media (min-width:400px) and (max-width:435px){
+    .article .small-body h5 img {
+        margin-top: 0em;
+    }
+}
+
+
+@media (min-width:768px) and (max-width:991px){
+   
+    .top-bar .navbar-nav>li>a {
+        font-size: 19px;
+        line-height: 60px;
+    }
+
+    .navbar .container {
+        display: flex;
+        flex-direction: row-reverse;
+    } 
+
+    .navbar {
+        min-height: 40px;
+        margin-bottom: 0;
+     }    
+     
+     .carousel-item .d-block {
+        height: 30em !important;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .banner-text {
+        margin-top: 1em;
+    }
+
+    .banner-text h1 {
+        font-size: 38px !important;
+        line-height: 48px;
+        text-align: center;
+        margin-top: 4em;
+        width: 75%;
+        margin-left: auto;
+        margin-right: auto
+    }
+
+    .banner-text p {
+        line-height: 24px;
+        text-align: center;
+        margin-top: 2em;
+        font-size: 16px;
+    }
+
+    .banner-text button.btn.btn-default {
+        margin-top: 2em;
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: 2.5em;
+        padding-right: 2.5em;
+        font-size: 16px;
+        line-height: 24px;
+        display: block;
+    }
+
+    .products h1 {
+        font-size: 30px;
+        margin-top: 1em;
+    }
+
+    .product {
+        width: 100% !important;
+        height: 140px;
+        margin-bottom: 3em;
+        max-width: 26% !important;
+        text-align: center;
+    }
+
+    .product img {
+        margin-top: 2em;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    
+    .product h4 {
+        font-size: 16px;
+        line-height: 24px;
+        text-align: center;
+        display: inline-block;
+        margin-top: 1em;
+        width: 100%;
+    }
+
+    body > div.products > div > div > div:nth-child(5) {
+        margin-left: 9em;
+    }
+
+    .article .body h3 {
+        font-size: 30px;
+        line-height: 48px;
+    }
+
+    .article .body p {
+        width: 100%;
+        font-size: 20px;
+        line-height: 35px;
+    }
+
+         
+    .article .small-body h4 {
+        font-size: 22px;
+        line-height: 37px;
+    }
+     
+
+    .article .small-body p {
+        width: 100%;
+        font-size: 18px;
+        line-height: 30px;
+    }
+
+
+    .article .small-body h5 {
+        font-size: 3em;
+        line-height: 1.5em;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .article .small-body h5 img {
+        margin-right: .5em;
+        width: 1em;
+    }
+     
+    .article .small-body h5 {
+        font-size: 18px;
+        line-height: 30px;
+    }
+}
